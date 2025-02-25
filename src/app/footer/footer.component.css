@@ -1,0 +1,48 @@
+.footer {
+  background-image: url("/background-footer.png");
+  filter: saturate(1.3);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: #ffffff;
+  font-family: playfair display;
+  padding: 20px;
+  text-align: center;
+  font-size: 4em;
+  border-top: solid 1px #72d0ff;
+  box-shadow: 0 -10px 40px rgba(0, 0, 0, 0.9);
+  margin-top: 40px;
+  background-color: #000000;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    background-position: center calc(50% - 70px);
+  }
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px
+}
+
+.contact-button {
+  background: rgba(5, 181, 250, 0);
+  color: #ffffff;
+  border: 2px solid rgb(18, 239, 255);
+  padding: 10px 100px;
+  border-radius: 30px;
+  font-size: .5em;
+  cursor: pointer;
+  backdrop-filter: blur(5px);
+  margin-bottom: 10px;
+}
+
+.legacy {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 0.3em;
+  max-height: 30px;
+  margin-top: -35px
+}

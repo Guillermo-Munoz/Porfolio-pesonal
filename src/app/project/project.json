@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "OKmovil",
+    "description": "Mantenimiento y migracion de sitio web de Okmovil, empresa proveedor de fibra y movil",
+    "image": "./Okmovil.webp",
+    "url": "https://okmovil.net/"
+  },
+  {
+    "id": 2,
+    "title": "Restaurante casa pepe puerto sherry",
+    "description": "Desarrollo de sitio web para restaurante Casa Pepe Puerto Sherry, Desarrollado en wordpress, con diseño personalizado y adaptado a moviles",
+    "image": "./restaurante.webp",
+    "url": "https://casapepepuertosherry.es/"
+  },
+  {
+    "id": 2,
+    "title": "Protección del Sur",
+    "description": "Desarollo sitio Web para Proteccion del Sur, empresa de seguridad y vigilancia, con diseño personalizado y adaptado a moviles",
+    "image": "./vigilancia.webp",
+    "url": "https://protecciondelsur.com/"
+  },
+  {
+    "id": 2,
+    "title": "Distribuciones el Puerto",
+    "description": "Creacion de sitio web para Distribuciones el Puerto, Desarrollado en wordpress, con diseño personalizado y adaptado a moviles",
+    "image": "./distribuciones.webp",
+    "url": "https://elpuertodistribuciones.es/"
+  },
+  {
+    "id": 2,
+    "title": "Restaurante casa pepe puerto sherry",
+    "description": "Creacion de sitio web para restaurante Casa Pepe Puerto Sherry, Desarrollado en wordpress, con diseño personalizado y adaptado a moviles",
+    "image": "./asador.webp",
+    "url": "https://asadorvarela.es/"
+  },
+  {
+    "id": 2,
+    "title": "Web terapeuta psicologica",
+    "description": "Creacion de sitio web para psicologa a medida, con diseño personalizado y adaptado a moviles",
+    "image": "./psicologa.webp",
+    "url": "https://lumrpsicologa.com/"
+  }
+]

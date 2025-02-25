@@ -1,0 +1,50 @@
+.container {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  color: rgb(255, 255, 255);
+  font-family: playfair display;
+  /* border: solid 1px #316b6b; */
+  /* border-radius: 10px;
+  background: linear-gradient(90deg, #ff000027, #0c08ff33, #fffb0028); */
+  width: 90%;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.left-section {
+  padding: 20px;
+  text-align: justify;
+
+}
+
+.description {
+  font-size: 1.5em;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.hi {
+  font-size: 4em;
+  color: #ffffff;
+}
+
+.right-section {
+  padding: 20px;
+  max-width: auto;
+  height: auto;
+}
+
+.right-section img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #ff0000, #0c08ff, #fffb00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

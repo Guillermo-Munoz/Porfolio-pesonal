@@ -1,0 +1,113 @@
+.container {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  color: rgb(255, 255, 255);
+  font-family: playfair display;
+  /* border: solid 1px #316b6b; */
+  /* border-radius: 10px;
+  background: linear-gradient(90deg, #ff000027, #0c08ff33, #fffb0028); */
+  width: 90%;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 20px;
+}
+
+.left-section {
+  padding: 20px;
+  text-align: justify;
+
+}
+
+.description {
+  font-size: 1.5em;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.hi {
+  font-size: 3em;
+  color: #ffffff;
+  text-align: left;
+}
+
+.right-section {
+  border-radius: 50%;
+  overflow: hidden;
+
+}
+
+.right-section {
+  aspect-ratio: 1 / 1;
+}
+
+.right-image {
+  border-radius: 50%;
+  overflow: hidden
+}
+
+.right-section img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: inset 0 0 100px rgb(50, 132, 255);
+
+  object-fit: cover;
+  height: auto;
+  display: block;
+
+}
+
+.right-section {
+  position: relative;
+  width: auto;
+  height: auto;
+}
+
+.right-cover {
+  z-index: 2;
+  animation: rotate 90s linear infinite;
+  display: inline-block;
+  position: absolute;
+
+}
+
+.right-cover2 {
+  z-index: 2;
+  animation: rotate2 90s linear infinite;
+  display: inline-block;
+  position: absolute;
+
+}
+
+@keyframes rotate {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+
+  }
+
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+@keyframes rotate2 {
+  from {
+    transform: translate(-50%, -50%) rotate(360deg);
+
+  }
+
+  to {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+}
+
+
+.gradient-text {
+  background: linear-gradient(90deg, #ff0000, #0c08ff, #fffb00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

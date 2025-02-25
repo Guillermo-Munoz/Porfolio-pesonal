@@ -1,0 +1,58 @@
+<nav>
+  <div class="nav-container">
+    <div class="nav-left">
+      <h1 class="nav-title">Desarrollo Web</h1>
+    </div>
+    <div class="nav-right">
+      <ul class="nav-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#project">Project</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<style>
+  * {
+    box-sizing: border-box;
+  }
+
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #001111;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
+
+  .nav-left .nav-title {
+    font-size: 24px;
+    margin: 0;
+  }
+
+  .nav-right .nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+
+  .nav-right .nav-menu li {
+    display: inline;
+  }
+
+  .nav-right .nav-menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+  .nav-right .nav-menu li a:hover {
+    text-decoration: underline;
+  }
+</style>
